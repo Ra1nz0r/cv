@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV / Resume — Artem Rylskii</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+
+      --bg: #0d1117;
+      --card: #161b22;
+      --card-inner: rgba(13, 17, 23, 0.45);
+      --border: #30363d;
+      --text: #f0f6fc;
+      --muted: #8b949e;
+
+      --green: #238636;
+      --green-dark: #196c2e;
+
+      --blue: #1f6feb;
+      --blue-dark: #174ea6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 820px;
+      margin: 24px;
+      padding: 36px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--card);
+      text-align: center;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin: 0 0 28px;
+      font-size: 38px;
+      line-height: 1.2;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .cv-card {
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card-inner);
+    }
+
+    .cv-card h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .cv-card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 13px 18px;
+      border-radius: 8px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .button--ru {
+      background: var(--green);
+    }
+
+    .button--ru-download {
+      background: var(--green-dark);
+      min-width: 108px;
+    }
+
+    .button--en {
+      background: var(--blue);
+    }
+
+    .button--en-download {
+      background: var(--blue-dark);
+      min-width: 108px;
+    }
+
+    .hint {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .footer a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 720px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .actions {
+        grid-template-columns: 1fr;
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+
+    .contacts {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 18px;
+    }
+
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+
+    .contact-link:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .contact-link--telegram {
+      background: #2ca5e0;
+    }
+
+    .contact-link--gmail {
+      background: #d14836;
+    }
+
+    .contact-link--linkedin {
+      background: #0077b5;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <h1>CV / Resume</h1>
+
+    <div class="cards">
+      <section class="cv-card">
+        <h2>Резюме RU</h2>
+
+        <p>
+          Актуальная версия резюме на русском языке для позиции Go Backend Developer.
+        </p>
+
+        <div class="actions">
+          <a class="button button--ru" href="./CV_Artem_Rylskii_Go_Backend_RU.pdf" target="_blank" rel="noopener">
+            Открыть
+          </a>
+
+          <a class="button button--ru-download" href="./CV_Artem_Rylskii_Go_Backend_RU.pdf" download>
+            Скачать
+          </a>
+        </div>
+
+        <p class="hint">
+          PDF откроется в новой вкладке или будет скачан отдельной кнопкой.
+        </p>
+      </section>
+
+      <section class="cv-card">
+        <h2>Resume EN</h2>
+
+        <p>
+          Current English resume version for Go Backend Developer positions.
+        </p>
+
+        <div class="actions">
+          <a class="button button--en" href="./CV_Artem_Rylskii_Go_Backend_EN.pdf" target="_blank" rel="noopener">
+            Open
+          </a>
+
+          <a class="button button--en-download" href="./CV_Artem_Rylskii_Go_Backend_EN.pdf" download>
+            Download
+          </a>
+        </div>
+
+        <p class="hint">
+          PDF opens in a new browser tab or can be downloaded with a separate button.
+        </p>
+      </section>
+    </div>
+
+    <div class="contacts">
+        <a class="contact-link contact-link--telegram" href="https://t.me/Rainz0r" target="_blank" rel="noopener">
+            Telegram
+        </a>
+
+        <a class="contact-link contact-link--gmail" href="mailto:n52rus@gmail.com">
+            Gmail
+        </a>
+
+        <a class="contact-link contact-link--linkedin" href="https://www.linkedin.com/in/artem-rylskii" target="_blank" rel="noopener">
+            LinkedIn
+        </a>
+    </div>
+
+    <p class="footer">
+      GitHub:
+      <a href="https://github.com/Ra1nz0r/cv" target="_blank" rel="noopener">
+        github.com/Ra1nz0r/cv
+      </a>
+    </p>
+  </main>
+</body>
+</html>
