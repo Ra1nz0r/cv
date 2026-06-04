@@ -6,8 +6,8 @@ This repository contains current CV versions for Go Backend Developer positions.
 
 ## Files
 
-- [CV in Russian](./CV_Artem_Rylskii_Go_Backend_RU.pdf)
-- [CV in English](./CV_Artem_Rylskii_Go_Backend_EN.pdf)
+[![CV in Russian](https://img.shields.io/badge/CV%20in%20Russian-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_RU.pdf)
+[![CV in English](https://img.shields.io/badge/CV%20in%20English-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_EN.pdf)
 
 ---
 
