@@ -4,10 +4,15 @@ This repository contains current CV versions for Go Backend Developer positions.
 
 ---
 
+## Landing page
+
+[![CV Landing Page](https://img.shields.io/badge/CV%20%2F%20Resume-Open%20landing%20page-167DFF?style=for-the-badge&logo=githubpages&logoColor=white)](https://ra1nz0r.github.io/cv/)
+
+---
+
 ## Files
 
-[![CV in Russian](https://img.shields.io/badge/CV%20in%20Russian-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_RU.pdf)
-[![CV in English](https://img.shields.io/badge/CV%20in%20English-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_EN.pdf)
+[![CV in Russian](https://img.shields.io/badge/CV%20in%20Russian-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_RU.pdf) [![CV in English](https://img.shields.io/badge/CV%20in%20English-Open%20PDF-167DFF?style=for-the-badge&logo=readme&logoColor=white)](./CV_Artem_Rylskii_Go_Backend_EN.pdf)
 
 ---
 
